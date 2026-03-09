@@ -1,0 +1,18 @@
+{
+  "name": "electron-calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "calculator"
+  ],
+  "author": "Gemini CLI",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}
