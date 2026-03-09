@@ -4,7 +4,8 @@
   "description": "A simple calculator built with Electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "cap": "cap"
   },
   "keywords": [
     "electron",
@@ -14,5 +15,12 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^31.0.0"
+  },
+  "dependencies": {
+    "@capacitor-community/electron": "^5.0.1",
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/cli": "^6.2.1",
+    "@capacitor/core": "^6.2.1",
+    "n": "^10.2.0"
   }
 }

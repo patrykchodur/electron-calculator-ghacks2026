@@ -13,7 +13,7 @@ function createWindow() {
     autoHideMenuBar: true
   });
 
-  mainWindow.loadFile('index.html');
+  mainWindow.loadFile('www/index.html');
 }
 
 app.whenReady().then(() => {
