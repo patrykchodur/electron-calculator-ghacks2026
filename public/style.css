@@ -77,3 +77,27 @@ body {
 .btn.zero {
     grid-column: span 2;
 }
+
+.native-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.btn-native {
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px;
+    flex: 1;
+    transition: background-color 0.2s;
+    font-weight: bold;
+}
+
+.btn-native:hover {
+    background-color: #9b59b6;
+}

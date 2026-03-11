@@ -1,6 +1,6 @@
 {
   "appId": "com.example.calculator",
   "appName": "Electron Calculator",
-  "webDir": "www",
+  "webDir": "dist",
   "bundledWebRuntime": false
 }
